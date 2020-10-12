@@ -1,0 +1,403 @@
+html{
+    
+}
+body{
+    background: #F5F5F5;
+}
+
+.space{
+    margin-top: 30px;
+}
+/*===================================
+                MAIN-PAGE
+=====================================*/
+
+/*-----MY-ACCOUNTS*----*/
+.short-profile{
+    background: #fff;
+    margin-bottom: 30px;
+    -webkit-box-shadow: -1px 12px 27px -7px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: -1px 12px 27px -7px rgba(0, 0, 0, 0.22);
+    box-shadow: -1px 12px 27px -7px rgba(0, 0, 0, 0.22);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;;
+    border-radius: 3px;
+}
+.short-profile img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.short-profile h4,.short-profile span{
+    text-transform: capitalize;
+    color: #212529;
+}
+
+.aside{
+    -webkit-box-shadow: -1px 12px 27px -7px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: -1px 12px 27px -7px rgba(0, 0, 0, 0.22);
+    box-shadow: -1px 12px 27px -7px rgba(0, 0, 0, 0.22);
+    margin-bottom: 30px;
+}
+.aside a{
+    border:0px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    text-transform: capitalize;
+    font-weight: 600;
+ 
+}
+
+/*
+.right{
+    border-radius: 3px;
+    padding: 20px;
+}
+*/
+
+
+/*----MY-ACCOUNTS---*/
+.my-accounts{
+    background: #fff;
+    border-radius: 3px;
+    padding: 20px;
+}
+.my-accounts .heading{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: ##212529;
+}
+.my-accounts .heading a{
+    margin-left: 20px;
+    color: #03C6C4;
+    
+}
+.my-accounts label{
+    text-transform: capitalize;
+}
+.my-accounts input{
+    width: 45%;
+    height: 40px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 3px;
+    padding: 10px;
+}
+.my-accounts input[type="radio"]{
+    width: auto;
+    height: auto;
+}
+.my-accounts input[type="date"]::-webkit-inner-spin-button,
+.right input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.my-accounts img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+/*-----MY-REVIEWS----*/
+.heading{
+    background: #fff;
+    padding: 10px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.review-list{
+    background: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.review-list img{
+    height: 200px;
+}
+.review-list h6{
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.review-list div{
+    margin-left: 20px;
+    color: ##212529;
+}
+.review-list div p{
+    margin-top: 20px;
+}
+.review-list .fa {
+  font-size: 15px;
+}
+
+.review-list .checked {
+  color: orange;
+}
+.review-list a{
+    text-transform: capitalize;
+}
+.line{
+    position: relative;
+    margin-right: 10px;
+}
+.line::after{
+    content: '';
+    height: 18px;
+    width: 2px;
+    background: #007bff;;
+    position: absolute;
+    right: -6px;
+    top: 2px;
+}
+
+/*-----MY-QUESTION-AND-ANSWER----*/
+.myquestion-and-answer{
+    background: #fff;
+    border-radius: 3px;
+}
+.nav {
+    justify-content: center;
+}
+.myquestion-and-answer .heading{
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+.nav-link{
+    text-transform: capitalize;
+}
+.question-list{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.question-list i{
+    margin-right: 20px;
+    color: #03C6C4;
+    font-size: 20px;
+}
+.question-list p{
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+}
+.question-list span{
+margin-right: 20px;
+}
+
+/*-----MY-REWARDS----*/
+.my-rewards{
+    background: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+.my-rewards .heading{
+    margin-bottom: 0;
+}
+
+/*-----MY-WISHLIST----*/
+.my-wishlist{
+    
+}
+.single-wishlist{
+    background: #fff;
+    border-radius: 3px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    display: block;
+    position: relative;
+}
+
+
+.single-wishlist .fa.fa-heart-o{
+    font-size:35px;
+    position: absolute;
+    top: 20px;
+    right:20px;
+    cursor: pointer;
+    color: black;
+}
+
+
+.single-wishlist .fa-star {
+  font-size: 15px;
+}
+
+.single-wishlist .fa.fa-heart-o.remove {
+ color:red;
+    
+}
+.single-wishlist p{
+    display: block;
+    margin: 10px 0;
+    color:#212529;
+}
+.single-wishlist .checked {
+  color: orange;
+}
+
+
+/*===================================
+                LOGIN-PAGE
+=====================================*/
+.margin{
+    margin-top: 30px;
+}
+.login-page{
+    background: #fff;
+    border-radius: 3px;
+    padding: 30px;
+    color:#212529;
+}
+.login-page h2{
+    margin-bottom:10px; 
+}
+.login-page h2,.login-page span{
+     text-transform: capitalize;
+}
+.login-page form{
+    margin-top: 20px;
+}
+.login-page label{
+    text-transform: capitalize;
+}
+.login-page input[type=text], .login-page input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+    margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 3px;
+}
+
+.login-page button {
+  background-color: #8e783d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  text-transform: capitalize;
+}
+.login-page button:hover {
+  opacity: 0.8;
+}
+
+/*===================================
+                FORGOT-PAGE
+=====================================*/
+.forgot-page{
+    background: #fff;
+    border-radius: 3px;
+    padding: 30px;
+    color:#212529;
+}
+.forgot-page h2{
+    margin-bottom:10px; 
+}
+.forgot-page form{
+    margin-top: 20px;
+}
+.forgot-page label{
+    text-transform: capitalize;
+}
+.forgot-page input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+    margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 3px;
+}
+
+.forgot-page button {
+  background-color: #8e783d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  text-transform: capitalize;
+}
+.forgot-page button:hover {
+  opacity: 0.8;
+}
+
+
+/*===================================
+                SING-UP-PAGE
+=====================================*/
+.sing-up-page{
+    background: #fff;
+    border-radius: 3px;
+    padding: 30px;
+    color:#212529;
+}
+.sing-up-page h2{
+    margin-bottom:10px; 
+}
+.sing-up-page .get-started{
+    display: block;
+} 
+.sing-up-page h2,.login-page span{
+     text-transform: capitalize;
+}
+.sing-up-page form{
+    margin-top: 20px;
+}
+.sing-up-page label{
+    text-transform: capitalize;
+}
+.sing-up-page input[type=text], .sing-up-page input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 8px;
+    margin-bottom: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 3px;
+}
+
+.sing-up-page button {
+  background-color: #8e783d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  text-transform: capitalize;
+}
+.sing-up-page button:hover {
+  opacity: 0.8;
+}
